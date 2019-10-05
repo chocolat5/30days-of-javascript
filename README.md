@@ -16,14 +16,14 @@ I create with
 ### Day 1: Drum Kit
 
 * html only `div`. `kbd` & `audio' tag create with JavaScript
-* Uses  `transitionend` [HTMLElement.transitionend](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement/transitionend_event)
-* Uses `currentTime` [HTMLElement.currentTime](https://developer.mozilla.org/ja/docs/Web/API/HTMLMediaElement/currentTime)
-* Uses `keydown` [KeyboardEvent](https://developer.mozilla.org/ja/docs/Web/API/KeyboardEvent)
+* Uses  `transitionend`
+* Uses `currentTime`
+* Uses `keydown`
 
 ### Day2: CSS + JS Clock
 
-* Uses `setInterval()` [setInterval()](https://developer.mozilla.org/ja/docs/Web/API/Window/setInterval)
-* Uses `Date` instance [Date](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date)
+* Uses `setInterval()`
+* Uses `Date` instance
 * Uses `getSeconds()`, `getMinutes()`, `getHours()`
 
 
