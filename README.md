@@ -46,4 +46,4 @@ I create with
 
 ## References
 
-[JavaScript30](https://javascript30.com/)
+JavaScript30 [https://javascript30.com/](https://javascript30.com/)
