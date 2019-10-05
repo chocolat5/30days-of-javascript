@@ -36,6 +36,9 @@ I create with
 * Uses `--custom-property` & `var(--custom-property)` (CSS)
 
 ### Day4: Array Cardio Day 1
+
+* Uses `filter()` `map()` `sort()` `reduce()`
+
 ### Day5: Flex Panels Image Gallery
 ### Day6: Ajax Type Ahead
 ### Day7: Array Cardio Day 2
