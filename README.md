@@ -19,6 +19,8 @@ I create with
 * Uses  `transitionend`
 * Uses `currentTime`
 * Uses `keydown`
+* Uses `querySelectorAll`
+* Uses `forEach`
 
 ### Day2: CSS + JS Clock
 
@@ -26,8 +28,13 @@ I create with
 * Uses `Date` instance
 * Uses `getSeconds()`, `getMinutes()`, `getHours()`
 
-
 ### Day3: Playing with CSS Variables and JS
+
+* Uses `dataset`
+* Uses `setProperty`
+* Uses `:root` (CSS)
+* Uses `--custom-property` & `var(--custom-property)` (CSS)
+
 ### Day4: Array Cardio Day 1
 ### Day5: Flex Panels Image Gallery
 ### Day6: Ajax Type Ahead
