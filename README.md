@@ -16,11 +16,17 @@ I create with
 ### Day 1: Drum Kit
 
 * html only `div`. `kbd` & `audio' tag create with JavaScript
-* Uses [HTMLElement.transitionend](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement/transitionend_event) event
-* Uses [HTMLElement.currentTime](https://developer.mozilla.org/ja/docs/Web/API/HTMLMediaElement/currentTime)
-* Uses [KeyboardEvent](https://developer.mozilla.org/ja/docs/Web/API/KeyboardEvent)
+* Uses  `transitionend` [HTMLElement.transitionend](https://developer.mozilla.org/ja/docs/Web/API/HTMLElement/transitionend_event)
+* Uses `currentTime` [HTMLElement.currentTime](https://developer.mozilla.org/ja/docs/Web/API/HTMLMediaElement/currentTime)
+* Uses `keydown` [KeyboardEvent](https://developer.mozilla.org/ja/docs/Web/API/KeyboardEvent)
 
 ### Day2: CSS + JS Clock
+
+* Uses `setInterval()` [setInterval()](https://developer.mozilla.org/ja/docs/Web/API/Window/setInterval)
+* Uses `Date` instance [Date](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Date)
+* Uses `getSeconds()`, `getMinutes()`, `getHours()`
+
+
 ### Day3: Playing with CSS Variables and JS
 ### Day4: Array Cardio Day 1
 ### Day5: Flex Panels Image Gallery
