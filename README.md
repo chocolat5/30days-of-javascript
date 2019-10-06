@@ -40,6 +40,9 @@ I create with
 * Uses `filter()` `map()` `sort()` `reduce()`
 
 ### Day5: Flex Panels Image Gallery
+
+* Uses `flexbox` (CSS)
+
 ### Day6: Ajax Type Ahead
 ### Day7: Array Cardio Day 2
 ### Day8: Fun with HTML5 Canvas
