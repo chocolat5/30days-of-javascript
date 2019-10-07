@@ -57,6 +57,9 @@ I create with
 * Uses `splice()` `slice()`
 
 ### Day8: Fun with HTML5 Canvas
+
+* Uses `canvas`
+
 ### Day9: 14 Must Know Dev Tools Tricks
 ### Day10: Hold Shift to Check Multiple Checkboxes
 
