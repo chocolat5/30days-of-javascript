@@ -52,6 +52,10 @@ I create with
 * Uses `toString()` `RegExp`
 
 ### Day7: Array Cardio Day 2
+
+* Uses `some()` `every()` `find()` `findIndex`
+* Uses `splice()` `slice()`
+
 ### Day8: Fun with HTML5 Canvas
 ### Day9: 14 Must Know Dev Tools Tricks
 ### Day10: Hold Shift to Check Multiple Checkboxes
