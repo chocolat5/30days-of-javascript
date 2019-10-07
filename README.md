@@ -44,6 +44,13 @@ I create with
 * Uses `flexbox` (CSS)
 
 ### Day6: Ajax Type Ahead
+
+* Uses `fetch()`
+* Uses `map()` `filter()`
+* Uses `match()`
+* Uses `replace()`
+* Uses `toString()` `RegExp`
+
 ### Day7: Array Cardio Day 2
 ### Day8: Fun with HTML5 Canvas
 ### Day9: 14 Must Know Dev Tools Tricks
