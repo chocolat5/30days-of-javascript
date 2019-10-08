@@ -65,6 +65,16 @@ I create with
 * Uses `console` method
 
 ### Day10: Hold Shift to Check Multiple Checkboxes
+### Day11: Custom Video Player
+### Day12: Key Sequence Detection
+### Day13: Slide in on Scroll
+### Day14: JavaScript References VS Copying
+### Day15: LocalStorage
+### Day16: Mouse Move Shadow
+### Day17: Sort Without Articles
+### Day18: Adding Up Times with Reduce
+### Day19: Webcam Fun
+### Day20: Speech Detection
 
 
 ## References
