@@ -61,6 +61,9 @@ I create with
 * Uses `canvas`
 
 ### Day9: 14 Must Know Dev Tools Tricks
+
+* Uses `console` method
+
 ### Day10: Hold Shift to Check Multiple Checkboxes
 
 
