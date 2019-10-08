@@ -70,7 +70,7 @@ I create with
 
 * Uses `<video>`
 * Uses `play()` `pause()`
-  * Uses `currentTime` `paused` `duration`
+* Uses `currentTime` `paused` `duration`
 
 
 ### Day12: Key Sequence Detection
