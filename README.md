@@ -65,7 +65,14 @@ I create with
 * Uses `console` method
 
 ### Day10: Hold Shift to Check Multiple Checkboxes
+
 ### Day11: Custom Video Player
+
+* Uses `<video>`
+* Uses `play()` `pause()`
+  * Uses `currentTime` `paused` `duration`
+
+
 ### Day12: Key Sequence Detection
 ### Day13: Slide in on Scroll
 ### Day14: JavaScript References VS Copying
