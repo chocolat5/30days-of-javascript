@@ -74,7 +74,15 @@ I create with
 
 
 ### Day12: Key Sequence Detection
+
+* Uses `keyup`
+* Uses `push()` `splice()` `join()` `includes()`
+
 ### Day13: Slide in on Scroll
+
+* Uses `window.scrollY`
+* Uses `offsetTop` `innerHeight`
+
 ### Day14: JavaScript References VS Copying
 ### Day15: LocalStorage
 ### Day16: Mouse Move Shadow
