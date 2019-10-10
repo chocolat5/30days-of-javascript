@@ -84,8 +84,15 @@ I create with
 * Uses `offsetTop` `innerHeight`
 
 ### Day14: JavaScript References VS Copying
+
+* Uses `slice()` `concat()` `...`(spread) `Object.assign`
+
 ### Day15: LocalStorage
+
+* Uses `localStorage.setItem()` `localStorage.getItem()`
+
 ### Day16: Mouse Move Shadow
+
 ### Day17: Sort Without Articles
 ### Day18: Adding Up Times with Reduce
 ### Day19: Webcam Fun
