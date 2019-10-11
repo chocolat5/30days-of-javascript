@@ -94,9 +94,27 @@ I create with
 ### Day16: Mouse Move Shadow
 
 ### Day17: Sort Without Articles
+
+* Uses `sort()`
+* Uses `replace()` `trim()` `join()`
+
 ### Day18: Adding Up Times with Reduce
+
+* Uses `reduce()`
+
 ### Day19: Webcam Fun
+
 ### Day20: Speech Detection
+### Day21: Geolocation
+### Day22: Follow Along Link Highlighter
+### Day23: Speech Synthesis
+### Day24: Sticky Nav
+### Day25: Event Capture, Propagation, Bubbling and Once
+### Day26: Stripe Follow Along Nav
+### Day27: Click and Drag
+### Day28: Video Speed Controller
+### Day29: Countdown Timer
+### Day30: Whack A Mole
 
 
 ## References
