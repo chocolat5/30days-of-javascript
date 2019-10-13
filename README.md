@@ -104,6 +104,9 @@ I create with
 
 ### Day19: Webcam Fun
 
+* Uses `MediaDevices.getUserMedia()()`
+* Uses canvas
+
 ### Day20: Speech Detection
 ### Day21: Geolocation
 ### Day22: Follow Along Link Highlighter
