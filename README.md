@@ -108,6 +108,9 @@ I create with
 * Uses canvas
 
 ### Day20: Speech Detection
+
+* Uses `SpeechRecognition()` `interimResults`
+
 ### Day21: Geolocation
 ### Day22: Follow Along Link Highlighter
 ### Day23: Speech Synthesis
