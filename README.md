@@ -112,7 +112,13 @@ I create with
 * Uses `SpeechRecognition()` `interimResults`
 
 ### Day21: Geolocation
+
+* Uses `geolocation.watchPosition()`
+
 ### Day22: Follow Along Link Highlighter
+
+* Uses `getBoundingClientRect()`
+
 ### Day23: Speech Synthesis
 ### Day24: Sticky Nav
 ### Day25: Event Capture, Propagation, Bubbling and Once
