@@ -120,6 +120,9 @@ I create with
 * Uses `getBoundingClientRect()`
 
 ### Day23: Speech Synthesis
+
+* Uses `SpeechSynthesisUtterance()` `getVoices()` `speak()`
+
 ### Day24: Sticky Nav
 ### Day25: Event Capture, Propagation, Bubbling and Once
 ### Day26: Stripe Follow Along Nav
