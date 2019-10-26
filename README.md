@@ -124,7 +124,13 @@ I create with
 * Uses `SpeechSynthesisUtterance()` `getVoices()` `speak()`
 
 ### Day24: Sticky Nav
+
+* Uses `offsetTop` `offsetHeight`
+
 ### Day25: Event Capture, Propagation, Bubbling and Once
+
+* Uses `event.stopPropagation()` `capture`
+
 ### Day26: Stripe Follow Along Nav
 ### Day27: Click and Drag
 ### Day28: Video Speed Controller
