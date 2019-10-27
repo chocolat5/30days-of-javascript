@@ -132,6 +132,11 @@ I create with
 * Uses `event.stopPropagation()` `capture`
 
 ### Day26: Stripe Follow Along Nav
+
+* Uses `getBoundingClientRect()`
+* Uses `mouseenter` `mouseleave`
+* Uses `setTimeout()`
+
 ### Day27: Click and Drag
 ### Day28: Video Speed Controller
 ### Day29: Countdown Timer
