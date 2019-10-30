@@ -138,6 +138,10 @@ I create with
 * Uses `setTimeout()`
 
 ### Day27: Click and Drag
+
+* Uses `mousedown` `mouseleave` `mouseup` `mousemove`
+* Uses `offsetLeft` `scrollLeft` `pageX`
+
 ### Day28: Video Speed Controller
 ### Day29: Countdown Timer
 ### Day30: Whack A Mole
