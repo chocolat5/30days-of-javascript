@@ -143,6 +143,9 @@ I create with
 * Uses `offsetLeft` `scrollLeft` `pageX`
 
 ### Day28: Video Speed Controller
+
+* Uses `video.playbackRate`
+
 ### Day29: Countdown Timer
 ### Day30: Whack A Mole
 
