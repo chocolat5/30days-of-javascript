@@ -147,8 +147,15 @@ I create with
 * Uses `video.playbackRate`
 
 ### Day29: Countdown Timer
+
+* Uses `Date.now()` `new Date()`
+* Uses `setInterval()` `clearInterval()`
+* Uses `Math.floor()` `Math.round()`
+
 ### Day30: Whack A Mole
 
+* Uses `Math.random()`
+* Uses `setTimeout()`
 
 ## References
 
