@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Object and Arrays - Reference VS Copy | 30 days of JavaScript</title>
+<meta name="description" content="This is the demo for #JavaScript30(30 days vanilla JS cording challenge)">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+
+<div id="wrapper" class="app">
+  <header class="app_header">
+    <h1>Object and Arrays - Reference VS Copy</h1>
+  </header>
+
+  <h2>numbers and booleans</h2>
+<pre><code>let age = 100;
+let age2 = age;
+console.log(age, age2); // 100 100
+age = 200;
+console.log(age, age2); // 200 100</code></pre>
+
+<pre><code>let name = 'Wes';
+let name2 = name;
+console.log(name, name2); // Wes Wes
+name = 'Wesley';
+console.log(name, name2); // Wesley Wes</code></pre>
+
+  <h2>array</h2>
+  <p>original array</p>
+  <pre><code>const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];</code></pre>
+
+  <p>copy of array</p>
+<pre><code>const team = players;
+team[3] = 'Lux';
+
+console.log(players); //  ["Wes", "Sarah", "Ryan", "Lux"]
+console.log(team); //  ["Wes", "Sarah", "Ryan", "Lux"]</code></pre>
+
+  <p>Uses slice()</p>
+<pre><code>const team = players.slice();
+team[3] = 'Lux';
+
+console.log(players); //  ["Wes", "Sarah", "Ryan", "Poppy"]
+console.log(team); //  ["Wes", "Sarah", "Ryan", "Lux"]</code></pre>
+
+  <p>Uses concat()</p>
+<pre><code>const team = [].concat(players);
+team[3] = 'Lux';
+console.log(players); //  ["Wes", "Sarah", "Ryan", "Poppy"]
+console.log(team); //  ["Wes", "Sarah", "Ryan", "Lux"]</code></pre>
+
+  <p>Uses spread</p>
+<pre><code>const team = [...players]
+team[3] = 'Lux';
+console.log(players); //  ["Wes", "Sarah", "Ryan", "Poppy"]
+console.log(team); //  ["Wes", "Sarah", "Ryan", "Lux"]</code></pre>
+
+  <p>Uses Array</p>
+<pre><code>const team5 = Array.from(players);
+team5[3] = 'Lux';
+console.log(players); //  ["Wes", "Sarah", "Ryan", "Poppy"]
+console.log(team5); //  ["Wes", "Sarah", "Ryan", "Lux"]</code></pre>
+
+
+  <h2>object</h2>
+  <p>original object</p>
+  <pre><code>const person = {
+  name: 'Wes Bos',
+  age: 80
+};</code></pre>
+
+  <p>copy of object</p>
+  <pre><code>const captain = person;
+captain.nubmer = 99;
+
+console.log(person); // {name: "Wes Bos", age: 80, nubmer: 99}
+console.log(captain); // {name: "Wes Bos", age: 80, nubmer: 99}</code></pre>
+
+  <p>Uses Object.assign</p>
+  <pre><code>const captain = Object.assign({}, person, {number: 99});
+
+console.log(person); // {name: "Wes Bos", age: 80}
+console.log(captain); // {name: "Wes Bos", age: 80, nubmer: 99}</code></pre>
+
+  <p>Uses Object.assign for nested object</p>
+  <pre><code>const sarah = {
+  name: 'Sarah',
+  age: 60,
+  social: {
+    twitter: '@sarah'
+  }
+};
+
+const lucy = Object.assign({}, sarah);
+lucy.name = 'Lucy';
+lucy.social.twitter = '@lucy';
+
+console.log(sarah); // {name: "Sarah", age: 60, social: {twitter: "@lucy"}}
+console.log(lucy); // {name: "Lucy", age: 60, social: {twitter: "@lucy"}}</code></pre>
+
+  <p>Uses JSON.parse() / JSON.stringify() for nested object</p>
+  <pre><code>const sarah = {
+  name: 'Sarah',
+  age: 60,
+  social: {
+    twitter: '@sarah'
+  }
+};
+
+const lucy = JSON.parse(JSON.stringify(sarah));
+lucy.name = 'Lucy';
+lucy.social.twitter = '@lucy';
+
+console.log(sarah); // {name: "Sarah", age: 60, social: {twitter: "@sarah"}}
+console.log(lucy); // {name: "Lucy", age: 60, social: {twitter: "@lucy"}}</code></pre>
+</div><!-- #wrapper -->
+</body>
+</html>
+

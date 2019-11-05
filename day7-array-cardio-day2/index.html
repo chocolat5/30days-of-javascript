@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Array Cardio Day 2 | 30 days of JavaScript</title>
+<meta name="description" content="This is the demo for #JavaScript30(30 days vanilla JS cording challenge)">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+
+<div id="wrapper" class="wrapper">
+  <header class="app_header">
+    <h1>Array Cardio Day 2</h1>
+    <p>There is no data to display.<br>Watch the source &amp; console.</p>
+  </header>
+  <div id="app"></div>
+</div><!-- #wrapper -->
+<script>
+  const people = [
+    { name: 'Wes', year: 1988 },
+    { name: 'Kait', year: 1986 },
+    { name: 'Irv', year: 1970 },
+    { name: 'Lux', year: 2015 }
+  ];
+
+  const comments = [
+    { text: 'Love this!', id: 523423 },
+    { text: 'Super good', id: 823423 },
+    { text: 'You are the best', id: 2039842 },
+    { text: 'Ramen is my fav food ever', id: 123523 },
+    { text: 'Nice Nice Nice!', id: 542328 }
+  ];
+
+  //is at least one person 19?
+  const isAdult = people.some(person => (new Date()).getFullYear() - person.year >= 19 );
+  console.log({isAdult});
+
+  //is everyone 19?
+  const allAdults = people.every(person => (new Date()).getFullYear() - person.year >= 19 );
+  console.log({allAdults});
+
+  //find()
+  //find comment with ID of 823423
+//  const comment = comments.find(comment => {
+//    if(comment.id === 823423) {
+//      return true;
+//    }
+//  });
+
+  const comment = comments.find(comment => comment.id === 823423);
+  console.log({comment});
+
+  //findIndex()
+  //delete the comment with ID of 823423
+  const index = comments.findIndex(comment => comment.id === 823423);
+//  comments.splice(index, 1);
+
+  const newComments = [
+    ...comments.slice(0, index),
+    ...comments.slice(index + 1)
+  ];
+  console.table(newComments);
+  
+</script>
+</body>
+</html>
+
