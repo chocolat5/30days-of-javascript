@@ -29,6 +29,7 @@ const fullNames = inventors.map(inventor => `${inventor.first} ${inventor.last}`
 const orderd = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
 
 
+
 // how many years did all the inventors live
 //let totalYears = 0;
 //for(let i = 0; i < inventors.length; i++) {
@@ -70,17 +71,14 @@ const alpha = people.sort((lastOne, nextOne) => {
 });
 
 
-//
+
+
 const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
 
 const transportation = data.reduce((obj, item, index, data) => {
-  //console.log(obj, item, index, data);
-
   if(!obj[item]) {
     obj[item] = 0;
   }
   obj[item]++;
   return obj;
 }, {});
-
-console.log(transportation);

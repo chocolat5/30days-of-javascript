@@ -33,14 +33,15 @@ I create with
 
 ### Day3: Playing with CSS Variables and JS
 
-* Uses `dataset`
-* Uses `setProperty`
-* Uses `:root` (CSS)
-* Uses `--custom-property` & `var(--custom-property)` (CSS)
+* Change the value of a slider control with `input` of `type="range"`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day3/)
 
 ### Day4: Array Cardio Day 1
 
-* Uses `filter()` `map()` `sort()` `reduce()`
+* How to use `filter()` `map()` `sort()` `reduce()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day4/)
 
 ### Day5: Flex Panels Image Gallery
 
