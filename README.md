@@ -15,12 +15,12 @@ I create with
 
 ### Day 1: Drum Kit
 
-* html only `div`. `kbd` & `audio' tag create with JavaScript
-* Uses  `transitionend`
-* Uses `currentTime`
-* Uses `keydown`
-* Uses `querySelectorAll`
-* Uses `forEach`
+* Sounds are played on the keyboard pressdown
+* Sound based on the `data-` (custom data attributes) set in the each keys
+* Uses `keydown` event
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day1/index.html)
+
 
 ### Day2: CSS + JS Clock
 
