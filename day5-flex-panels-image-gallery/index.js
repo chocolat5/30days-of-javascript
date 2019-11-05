@@ -1,5 +1,6 @@
 import './style.scss';
 
+/* html elements */
 const app = document.getElementById('app');
 
 const panels = document.createElement('div');
@@ -22,18 +23,27 @@ for (let i = 0; i < 5; i++) {
 
 app.append(panels);
 
+
+/* dunctions */
 const panelItems = document.querySelectorAll('.panel');
 
 function toggleOpen() {
-  this.classList.toggle('open');
+  this.classList.add('open');
 }
 
-function toggleActive(e) {
-  //console.log(e.propertyName);
-  if(e.propertyName.includes('flex')) {
-    this.classList.toggle('is-active');
+function toggleClose() {
+  this.classList.remove('open');
+}
+
+function showText(e) {
+  if(e.propertyName.includes('flex') && this.classList.contains('open') ) {
+    this.classList.add('is-active');
+  }
+  if(e.propertyName.includes('flex') && !this.classList.contains('open') ) {
+    this.classList.remove('is-active');
   }
 }
 
-panelItems.forEach(panel => panel.addEventListener('click', toggleOpen));
-panelItems.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+panelItems.forEach(panel => panel.addEventListener('mouseenter', toggleOpen));
+panelItems.forEach(panel => panel.addEventListener('mouseleave', toggleClose));
+panelItems.forEach(panel => panel.addEventListener('transitionend', showText));

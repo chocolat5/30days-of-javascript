@@ -45,24 +45,31 @@ I create with
 
 ### Day5: Flex Panels Image Gallery
 
-* Uses `flexbox` (CSS)
+* On mouse over to expand the box and show the text
+* Uses `mouseenter` `mouseleave` `transitioned`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day5/)
 
 ### Day6: Ajax Type Ahead
 
-* Uses `fetch()`
-* Uses `map()` `filter()`
-* Uses `match()`
-* Uses `replace()`
-* Uses `toString()` `RegExp`
+* Suggested City Names by type some text
+* City Names get from api(json data) by using `fetch()`
+* Find matche City Name by text inputted using `filter()` `match()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day6/)
+
 
 ### Day7: Array Cardio Day 2
 
-* Uses `some()` `every()` `find()` `findIndex`
-* Uses `splice()` `slice()`
+* How to use `some()` `every()` `find()` `findIndex` `splice()` `slice()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day7/)
 
 ### Day8: Fun with HTML5 Canvas
 
 * Uses `canvas`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day8/)
 
 ### Day9: 14 Must Know Dev Tools Tricks
 
