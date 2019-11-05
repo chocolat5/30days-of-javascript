@@ -16,17 +16,20 @@ I create with
 ### Day 1: Drum Kit
 
 * Sounds are played on the keyboard pressdown
-* Sound based on the `data-` (custom data attributes) set in the each keys
+* Sound based on the `data-` (custom data attributes) set in each keys
 * Uses `keydown` event
 
-[Demo](https://chocolat5.github.io/30days-of-javascript/day1/index.html)
+[Demo](https://chocolat5.github.io/30days-of-javascript/day1/)
 
 
 ### Day2: CSS + JS Clock
 
-* Uses `setInterval()`
-* Uses `Date` instance
-* Uses `getSeconds()`, `getMinutes()`, `getHours()`
+* Real-time Clock in Digital and Analog
+* Get a moment time uses `new Date()`, `getSeconds()`, `getMinutes()`, `getHours()`
+* Analog clock hands moved by CSS `transfrom: rotate()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day2/)
+
 
 ### Day3: Playing with CSS Variables and JS
 

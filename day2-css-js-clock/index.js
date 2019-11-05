@@ -1,5 +1,6 @@
 import './style.scss';
 
+/* html elements */
 const app = document.getElementById('app');
 
 const clock = document.createElement('div');
@@ -19,22 +20,44 @@ app.append(clock);
 clock.append(clockFace);
 clockFace.append(hourHand, minHand, secondHand);
 
+const digital = document.createElement('div');
+digital.classList.add('clock-digital');
+const hourEl = document.createElement('p');
+const minEl = document.createElement('p');
+const secondEl = document.createElement('p');
 
-const setData = () => {
+
+app.append(digital);
+digital.append(hourEl, minEl, secondEl);
+
+
+/* functions */
+const getTime = () => {
   const now = new Date();
   const seconds = now.getSeconds(); //秒
+  const mins = now.getMinutes(); //分
+  const hours = now.getHours(); //時間
+
+  setClockHands(seconds, mins, hours);
+  setClockDigital(seconds, mins, hours);
+};
+
+
+const setClockHands = (seconds, mins, hours) => {
   const secondDegrees = ((seconds / 60) * 360) - 90; //秒の角度
   secondHand.style.transform = `rotate(${secondDegrees}deg)`;
 
-  const mins = now.getMinutes(); //分
   const minsDegrees = ((mins / 60) * 360) - 90; //分の角度
   minHand.style.transform = `rotate(${minsDegrees}deg)`;
 
-  const hours = now.getHours(); //分
-  const hoursDegrees = ((hours / 12) * 360) - 90; //分の角度
+  const hoursDegrees = ((hours / 12) * 360) - 90; //時間の角度
   hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
+};
 
-  console.log(hours);
+const setClockDigital = (seconds, mins, hours) => {
+  hourEl.textContent = hours;
+  minEl.textContent = `:${mins < 10 ? '0' + mins : mins}`;
+  secondEl.textContent = `:${seconds < 10 ? '0' + seconds : seconds}`;
 }
 
-setInterval(setData, 1000);
+setInterval(getTime, 1000);
