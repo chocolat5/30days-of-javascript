@@ -67,13 +67,15 @@ I create with
 
 ### Day8: Fun with HTML5 Canvas
 
-* Uses `canvas`
+* Draw on display created with `canvas`
 
 [Demo](https://chocolat5.github.io/30days-of-javascript/day8/)
 
 ### Day9: 14 Must Know Dev Tools Tricks
 
 * Uses `console` method
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day9/)
 
 ### Day10: Hold Shift to Check Multiple Checkboxes
 
