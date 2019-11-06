@@ -3,10 +3,90 @@
 <head>
 <meta charset="UTF-8">
 <title>Console Tricks!</title>
+<link href="style.css" rel="stylesheet">
 </head>
 <body>
 
+<div id="wrapper" class="wrapper">
+  <header class="app_header">
+    <h1>Console Tricks!</h1>
+    <div>See the console.</div>
+  </header>
+  <div id="app">
+    <h2>data</h2>
+<pre><code>const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];</code></pre>
+
+    <h2>data</h2>
 <p onClick="makeGreen()">×BREAK×DOWN×</p>
+<pre><code>function makeGreen() {
+  const p = document.querySelector('p');
+  p.style.color = '#BADA55';
+  p.style.fontSize = '50px';
+};</code></pre>
+
+    <h2>Regular</h2>
+<pre><code>console.log('Hello');</code></pre>
+
+    <h2>Interpolated</h2>
+<pre><code>console.log('Hello I am a %s string!', '+ppp');</code></pre>
+
+    <h2>Styled</h2>
+<pre><code>console.log('%c I am some great text', 'font-size: 50px; background: green;');</code></pre>
+
+    <h2>warning</h2>
+<pre><code>console.warn('OH NOOO');</code></pre>
+
+    <h2>Error</h2>
+<pre><code>console.error('shit!');</code></pre>
+
+    <h2>Info</h2>
+<pre><code>console.info('Crocodiles eat 3-4 people per year');</code></pre>
+
+    <h2>Testing</h2>
+<pre><code>console.assert(1 === 2, 'That is wrong');</code></pre>
+
+    <h2>Clearing</h2>
+<pre><code>console.clear();</code></pre>
+
+    <h2>Viewing DOM Elements</h2>
+<pre><code>console.log(p);
+console.dir(p);</code></pre>
+
+    <h2>Grouping together</h2>
+<pre><code>dogs.forEach(dog => {
+  console.groupCollapsed(`${dog.name}`);
+  console.log(`This is ${dog.name}`);
+  console.log(`${dog.name} is ${dog.age} years old`);
+  console.log(`${dog.name} is ${dog.age * 7} dog years old`);
+  console.groupEnd(`${dog.name}`);
+});</code></pre>
+
+    <h2>Counting</h2>
+<pre><code>console.count('Wes');
+console.count('Wes');
+console.count('Wes');
+console.count('Steve');
+console.count('Wes');
+console.count('Wes');
+console.count('Steve');
+console.count('Steve');</code></pre>
+
+    <h2>Timing</h2>
+<pre><code>console.time('fetching data');
+fetch('https://api.github.com/users/wesbos')
+  .then(data => data.json())
+  .then(data => {
+    console.timeEnd('fetching data');
+    console.log(data);
+  });</code></pre>
+
+    <h2>Table</h2>
+<pre><code>console.table(dogs);</code></pre>
+  </div>
+
+
+</div>
+
 
 <script>
   const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
@@ -42,7 +122,7 @@
   console.assert(p.classList.contains('ouch'), 'That is wrong');
 
   // clearing
-  console.clear();
+  //console.clear();
 
   // Viewing DOM Elements
   console.log(p);
@@ -55,7 +135,7 @@
     console.log(`${dog.name} is ${dog.age} years old`);
     console.log(`${dog.name} is ${dog.age * 7} dog years old`);
     console.groupEnd(`${dog.name}`);
-  })
+  });
 
   // counting
   console.count('Wes');
