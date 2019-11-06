@@ -79,96 +79,147 @@ I create with
 
 ### Day10: Hold Shift to Check Multiple Checkboxes
 
+[Demo](https://chocolat5.github.io/30days-of-javascript/day10/)
+
+
 ### Day11: Custom Video Player
 
-* Uses `<video>`
+* Video Handler of play or stop, change progress, skip
 * Uses `play()` `pause()`
-* Uses `currentTime` `paused` `duration`
 
+[Demo](https://chocolat5.github.io/30days-of-javascript/day11/)
 
 ### Day12: Key Sequence Detection
 
+* Key pushed to array on each keyboard pressdown
+* Show message if array contains secret code
 * Uses `keyup`
-* Uses `push()` `splice()` `join()` `includes()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day12/)
 
 ### Day13: Slide in on Scroll
 
+* Image fade in when window scroll in specified position
 * Uses `window.scrollY`
-* Uses `offsetTop` `innerHeight`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day13/)
 
 ### Day14: JavaScript References VS Copying
 
+* What difference between Reference and Copy Variables
 * Uses `slice()` `concat()` `...`(spread) `Object.assign`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day14/)
 
 ### Day15: LocalStorage
 
+* Input text saved to Local Storage
 * Uses `localStorage.setItem()` `localStorage.getItem()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day15/)
 
 ### Day16: Mouse Move Shadow
 
+* Shadow move according to moving the mouse
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day15/)
+
 ### Day17: Sort Without Articles
 
-* Uses `sort()`
+* Uses `sort()` 
 * Uses `replace()` `trim()` `join()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day17/)
 
 ### Day18: Adding Up Times with Reduce
 
 * Uses `reduce()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day18/)
 
 ### Day19: Webcam Fun
 
 * Uses `MediaDevices.getUserMedia()()`
 * Uses canvas
 
+[Demo](https://chocolat5.github.io/30days-of-javascript/day19/)
+
 ### Day20: Speech Detection
 
 * Uses `SpeechRecognition()` `interimResults`
 
+[Demo](https://chocolat5.github.io/30days-of-javascript/day20/)
+
 ### Day21: Geolocation
 
+* Compass can be used in mobile devise
 * Uses `geolocation.watchPosition()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day21/)
 
 ### Day22: Follow Along Link Highlighter
 
+* Highlighter following the moving mouse
 * Uses `getBoundingClientRect()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day22/)
 
 ### Day23: Speech Synthesis
 
 * Uses `SpeechSynthesisUtterance()` `getVoices()` `speak()`
 
+[Demo](https://chocolat5.github.io/30days-of-javascript/day23/)
+
 ### Day24: Sticky Nav
 
+* Navigation fixed at position top of window when window scrolled
 * Uses `offsetTop` `offsetHeight`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day24/)
 
 ### Day25: Event Capture, Propagation, Bubbling and Once
 
 * Uses `event.stopPropagation()` `capture`
 
+[Demo](https://chocolat5.github.io/30days-of-javascript/day25/)
+
 ### Day26: Stripe Follow Along Nav
 
+* Show sub menu with animation when mouse over item 
 * Uses `getBoundingClientRect()`
 * Uses `mouseenter` `mouseleave`
-* Uses `setTimeout()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day26/)
 
 ### Day27: Click and Drag
 
+* Slider can be moved drag and drop
 * Uses `mousedown` `mouseleave` `mouseup` `mousemove`
 * Uses `offsetLeft` `scrollLeft` `pageX`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day27/)
 
 ### Day28: Video Speed Controller
 
 * Uses `video.playbackRate`
 
+[Demo](https://chocolat5.github.io/30days-of-javascript/day28/)
+
 ### Day29: Countdown Timer
 
+* Countdown timer and show the end time
 * Uses `Date.now()` `new Date()`
 * Uses `setInterval()` `clearInterval()`
-* Uses `Math.floor()` `Math.round()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day29/)
 
 ### Day30: Whack A Mole
 
+* Game of Whack-A-Mole
 * Uses `Math.random()`
 * Uses `setTimeout()`
+
+[Demo](https://chocolat5.github.io/30days-of-javascript/day30/)
 
 ## References
 
